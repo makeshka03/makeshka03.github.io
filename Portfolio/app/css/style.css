@@ -373,11 +373,14 @@
     }
     .g-header__content h1 {
         padding-top: 35px;
+    }
 }
 
 @media screen and (max-width: 350px) {
     .g-link {
         margin-top: 45px;
         padding: 20px 100px;
+        
     }
+    
 }
