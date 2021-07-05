@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'SFPro';
+    font-style: normal;
+    font-weight: normal;
+    src: local("SF Pro Display"), local("SF-Pro-Display"), local("San-Francisco"), url("/fonts/SFProDisplay-Regular.woff2") format("woff2"), url("/fonts/SFProDisplay-Regular.woff") format("woff"), url("/fonts/SFProDisplay-Regular.ttf") format("ttf"), url("/fonts/SFProDisplay-Regular.eot") format("eot"); }
+  
+  @font-face {
+    font-family: 'SFPro';
+    font-style: normal;
+    font-weight: bold;
+    src: local("SF Pro Display"), local("SF-Pro-Display"), local("San-Francisco"), url("/fonts/SFProDisplay-Bold.woff2") format("woff2"), url("/fonts/SFProDisplay-Bold.woff") format("woff"), url("/fonts/SFProDisplay-Bold.ttf") format("ttf"), url("/fonts/SFProDisplay-Bold.eot") format("eot"); }
+  
+  @font-face {
+    font-family: 'SFPro';
+    font-style: normal;
+    font-weight: 900;
+    src: local("SF Pro Display"), local("SF-Pro-Display"), local("San-Francisco"), url("app/fonts/SFProDisplay-Black.woff2") format("woff2"), url("app/fonts/SFProDisplay-Black.woff") format("woff"), url("app/fonts/SFProDisplay-Black.ttf") format("ttf"), url("app/fonts/SFProDisplay-Black.eot") format("eot"); }
+  
+  @font-face {
+    font-family: 'SFPro';
+    font-style: normal;
+    font-weight: 300;
+    src: local("SF Pro Display"), local("SF-Pro-Display"), local("San-Francisco"), url("app/fonts/SFProDisplay-Light.woff2") format("woff2"), url("app/fonts/SFProDisplay-Light.woff") format("woff"), url("app/fonts/SFProDisplay-Light.ttf") format("ttf"), url("app/fonts/SFProDisplay-Light.eot") format("eot"); }
+  
+  @font-face {
+    font-family: 'SFPro';
+    font-style: normal;
+    font-weight: 500;
+    src: local("SF Pro Display"), local("SF-Pro-Display"), local("San-Francisco"), url("app/fonts/SFProDisplay-Medium.woff2") format("woff2"), url("app/fonts/SFProDisplay-Medium.woff") format("woff"), url("app/fonts/SFProDisplay-Medium.ttf") format("ttf"), url("app/fonts/SFProDisplay-Medium.eot") format("eot"); }
+
+
+html,
+body,
+*,
+*::before,
+*::after,
+form,
+select,
+input,
+button,
+a,
+li {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: transparent;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'SFPro', sans-serif;
+    background-color: #ffffff;
+}
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.g-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+h1 {
+  font-size: 48px;
+  color: #000000;
+  line-height: 150%;
+  font-weight: 700;
+}
+h6 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
