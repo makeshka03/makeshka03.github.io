@@ -368,6 +368,11 @@
     .g-footer-card a {
         font-size: 22px;
     }
+    .g-main {
+    padding: 90px 0;
+    }
+    .g-header__content h1 {
+        padding-top: 35px;
 }
 
 @media screen and (max-width: 350px) {
